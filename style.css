@@ -5,18 +5,44 @@
     --page-bg-color: #F9F7FE;
 
 }
-h1,
-h2
+body{
+    background-color: whitesmoke;
+}
+.hero{
+    background-color: var(--page-bg-color);
+    text-align: center;
+    padding: 145px 20px;
+    line-height: 24px;
+}
+
+h1
+
 {font-family: var(--heading-font-family);
 font-weight: bold;
+font-size: 96px;
+}
+
+h2{
+    font-size: 24px;
+    line-height:36px;
+    font-family: var(--default-font-family); 
+   font-weight: normal;
 }
 
 p{
-   font-family: var(--default-font-family); 
-   font-weight: normal;
+    font-size: 36px;
+    line-height:54px;
+    font-weight: 700;
+    font-family: var(--default-font-family); 
 }
-btn {
+.btn {
     background-color: var(--link-bg-color);
+    font: var(--page-bg-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px;
+    margin-top: 20px;
+  
 }
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
