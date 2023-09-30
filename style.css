@@ -8,9 +8,24 @@
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
+img{
+    padding: 90px 20px 30px 20px;
+    border-radius: 2%
+    
+    
+}
+#image-grid{
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    padding:12px;
+}
+#featured-project{
+    margin:48px;
+    text-align: center;
+}
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -20,15 +35,23 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 36px;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: normal;
+  padding: 30px;
+
 }
 
-p {
-  font-size: 36px;
-  line-height: 54px;
+h3 {
+  font-size: 64px;
+  line-height: 76px;
   font-weight: 700;
   font-family: var(--default-font-family);
+  padding: 30px 30px 5px 30px
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 30px 5px 30px;
 }
 .btn {
   background-color: var(--primary-color);
@@ -39,21 +62,34 @@ p {
   margin-top: 20px;
 }
 
-@media (max-width: 576px) {
-  h1, h2,
-  p {
+@media (max-width: 567px) {
+  h3,h2
+   {
     text-align: center;
     font-size: 30px;
-     }
-
-     h1 {
-color: goldenrod;
-     }
+  }
+  h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+  }
 }
-
 
 @media (max-width: 217px) {
   .wavinghand {
     display: none;
   }
+  .hero {
+    background-color: white;
+  }
 }
+@media only screen and (min-width: 567px) and (max-width: 993px) {
+        #image-grid{
+        display:none;
+    }
+}
+
+@media (max-width: 567px) and (min-width: 993px) {
+    #small-image{
+        display: none;
+    }
+   }
