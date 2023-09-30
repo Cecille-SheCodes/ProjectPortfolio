@@ -71,7 +71,13 @@ p{
   h1 {
     font-size: 36px;
     color: var(--primary-color);
-  }
+  }}
+  @media (max-width: 758px) {
+ .applinks {
+    text-align: center;
+    padding: 15px 30px;
+    justify-content: center;
+      }
 }
 
 @media (max-width: 217px) {
@@ -82,14 +88,15 @@ p{
     background-color: white;
   }
 }
-@media only screen and (min-width: 567px) and (max-width: 993px) {
-        #image-grid{
-        display:none;
+@media only screen and (min-width: 567px) and (max-width: 933px) {
+        p{
+        font-size:12px;
+        line-height: 12px;
+    }
+    h2{
+        padding-bottom: 0;
+
     }
 }
 
-@media (max-width: 567px) and (min-width: 993px) {
-    #small-image{
-        display: none;
-    }
-   }
+
