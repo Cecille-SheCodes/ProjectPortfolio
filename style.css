@@ -39,7 +39,7 @@ h2 {
   line-height: 36px;
   font-family: var(--heading-font-family);
   font-weight: normal;
-  padding: 30px;
+  padding: 30px
 }
 
 h3 {
@@ -54,14 +54,7 @@ p {
   line-height: 30px;
   padding: 0 30px 5px 30px;
 }
-.btn {
-  background-color: var(--primary-color);
-  font: var(--secondary-color);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 18px 30px;
-  margin-top: 20px;
-}
+
 
 @media (max-width: 567px) {
   h3,
@@ -71,7 +64,8 @@ p {
   }
   h1 {
     font-size: 36px;
-    color: var(--primary-color);
+    color: #3dd5f3;
+    text-shadow: 2px 2px 2px grey;
   }
 }
 @media (max-width: 766px) {
@@ -95,7 +89,5 @@ p {
     font-size: 14px;
     line-height: 14px;
   }
-  h2 {
-    padding-bottom: 0;
-  }
+  
 }
