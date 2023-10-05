@@ -106,3 +106,9 @@ p {
     padding:30px;
     text-align: center;
       }
+
+    .work-inquiry{
+      background-color: var(--secondary-color);
+      max-width:70%;
+      border-radius: 10px;
+    }
