@@ -19,8 +19,8 @@
   margin: 30px auto;
 }
 img {
-  padding: 90px 30px 30px 30px;
-  border-radius: 2%;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
 }
 #image-grid {
   background-color: var(--secondary-color);
@@ -60,6 +60,7 @@ p {
   h2 {
     text-align: center;
     font-size: 30px;
+    line-height: 1;
   }
   h1 {
     font-size: 36px;
@@ -67,7 +68,7 @@ p {
     text-shadow: 2px 2px 2px grey;
   }
 }
-@media (max-width: 766px) {
+@media (max-width: 986px) {
   .applinks {
     text-align: center;
     padding: 15px 30px;
@@ -90,10 +91,6 @@ p {
   }
 }
 
-#profile-foto {
-  padding: 30px;
-  border-radius: 10px !important;
-}
 .about-me-intro h3 {
   padding: 0 30px 5px 30px;
   font-size: 24px;
@@ -103,3 +100,9 @@ p {
   padding: 0 30px 5px 30px;
   font-size: 42px;
 }
+
+  .chiquiat-foto{
+    border-radius: 6px;
+    padding:30px;
+    text-align: center;
+      }
