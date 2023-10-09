@@ -1,14 +1,23 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
-  --primary-color: rgb(108, 99, 255);
-  --secondary-color:rgb(249, 225, 196);
+  --primary-color: rgb(236, 197, 112);
+  --secondary-color:rgb(237, 223, 245);
+}
+body
+{background-image: url(/images/pexels-dom-j-310452.jpg);
+background-size:100%;}
+
+#main-body{
+  background-color: white;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 60px 20px;
+  border-radius: 4px;
 }
 #featured-project {
   margin: 48px;
@@ -19,19 +28,24 @@
   margin: 30px auto;
 }
 img {
-  padding: 30px 30px 30px 30px;
+  padding: 15px;
   border-radius: 10px;
+  display:inline-block;
+  vertical-align: middle;
 }
 #image-grid {
   background-color: var(--secondary-color);
   border-radius: 10px;
   padding: 12px;
+
+
 }
+  
 
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 96px;
+  font-size: 85px;
 }
 
 h3 {
@@ -42,8 +56,8 @@ h3 {
   padding: 30px 30px 5px 30px;
 }
 h2 {
-  font-size: 64px;
-  line-height: 76px;
+  font-size: 50px;
+  line-height: 50px;
   font-weight: 700;
   font-family: var(--heading-font-family);
   padding: 30px;
@@ -64,9 +78,7 @@ p {
   }
   h1 {
     font-size: 36px;
-    color: #3dd5f3;
-    text-shadow: 2px 2px 2px grey;
-  }
+      }
 }
 @media (max-width: 986px) {
   .applinks {
@@ -102,12 +114,18 @@ p {
 }
 
 .chiquiat-foto {
-border-color: none;
+padding:5px;
+background-color: var(--secondary-color);
 border-radius: 10px;
   padding: 5px;
-  max-height:100%;
+  max-width:250px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
 
+.work-intro {
+  padding:20px 30px 20px 30px;
+}
 .contact-intro {
   padding:20px 30px 20px 200px;
 }
