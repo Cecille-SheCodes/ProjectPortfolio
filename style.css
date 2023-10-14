@@ -9,14 +9,14 @@ body
 background-size:100%;}
 
 #main-body{
-  background-color: white;
+background-color: white;
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 60px 20px;
+  padding: 50px 20px;
   border-radius: 4px;
 }
 #featured-project {
@@ -41,11 +41,20 @@ img {
 
 }
   
+.index-intro{
+  font-family: 'Cookie', cursive;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 80px;
+  text-decoration: wavy;
+  text-shadow: 5px 5px white;
+}
 
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 85px;
+  
 }
 
 h3 {
@@ -114,11 +123,11 @@ p {
 }
 
 .chiquiat-foto {
-padding:5px;
+padding:30px !important;
 background-color: var(--secondary-color);
 border-radius: 10px;
   padding: 5px;
-  max-width:250px;
+  max-width:300px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
@@ -140,4 +149,7 @@ border-radius: 10px;
   font-weight: bolder;
   color: var(--primary-color) !important;
 
+}
+#profile-foto{
+  max-height: 475px;
 }
