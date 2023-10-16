@@ -11,6 +11,8 @@ background-size:100%;}
 #main-body{
 background-color: white;
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+display: block;
+margin: 30 auto !important;
 }
 
 .hero {
@@ -37,9 +39,7 @@ img {
   background-color: var(--secondary-color);
   border-radius: 10px;
   padding: 12px;
-
-
-}
+  }
   
 .index-intro{
   font-family: 'Cookie', cursive;
@@ -54,8 +54,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 85px;
-  
-}
+  }
 
 h3 {
   font-size: 24px;
@@ -88,7 +87,9 @@ p {
   h1 {
     font-size: 36px;
       }
+
 }
+
 @media (max-width: 986px) {
   .applinks {
     text-align: center;
@@ -98,9 +99,7 @@ p {
 }
 
 @media (max-width: 217px) {
-  .wavinghand {
-    display: none;
-  }
+ 
   .hero {
     background-color: white;
   }
@@ -122,19 +121,16 @@ p {
   font-size: 42px;
 }
 
-.chiquiat-foto {
-padding:30px !important;
+.chiquiat-foto, #profile-foto {
+padding:10px;
 background-color: var(--secondary-color);
 border-radius: 10px;
-  padding: 5px;
-  max-width:300px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#profile-foto{
+  margin-top: 40px;
 }
 
-.work-intro {
-  padding:20px 30px 20px 30px;
-}
 .contact-intro {
   padding:20px 30px 20px 30px;
 }
@@ -149,7 +145,4 @@ border-radius: 10px;
   font-weight: bolder;
   color: var(--primary-color) !important;
 
-}
-#profile-foto{
-  max-height: 475px;
 }
